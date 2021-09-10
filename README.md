@@ -1,6 +1,6 @@
 # Temario
 
-- [x] [ES6](codeExample/../1-%20ES6.md)
+<!-- - [x] [ES6](codeExample/../1-%20ES6.md)
   - [x] Operador spread 
   - [x] Parametros Rest
   - [x] Desestructuración
@@ -11,5 +11,7 @@
   - [x] Includes (Array) 
   - [x] Operador de exponenciación (**)
 - [x] [ES8](codeExample/../2-%20ES8.md)
+  - [x] Object.entries
+  - [x] Object.values
 - [ ] ES9
-- [ ] ES10
+- [ ] ES10 -->
