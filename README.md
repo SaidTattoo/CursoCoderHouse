@@ -7,7 +7,7 @@
   - [x] Métodos de Array 
     - [x] ForEach
     - [ ] Reduce
-- [x] [ES7](codeExample/2-%20ES7.md)
+- [x] [ES7](codeExample/../2-%20ES7.md)
   - [x] Includes (Array) 
   - [x] Operador de exponenciación (**)
 - [ ] ES8
