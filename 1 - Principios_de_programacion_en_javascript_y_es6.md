@@ -17,7 +17,7 @@ src="./codeExamples/Ejemplo 2 spread operator.png"/>
 La sintaxis de los parámetros rest nos permiten representar un número indefinido de argumentos como un array.
 
 <img
-src="./codeExamples/Parametros rest.png"/>
+src="./codeExamples/Parametros Rest.png"/>
 
 
 ## Desestructuración
