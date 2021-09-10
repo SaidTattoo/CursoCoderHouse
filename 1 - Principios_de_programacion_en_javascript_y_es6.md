@@ -19,14 +19,33 @@ La sintaxis de los parámetros rest nos permiten representar un número indefini
 <img
 src="./codeExamples/Parametros Rest.png"/>
 
+<img
+src="./codeExamples/Parametros  Rest 2.png"/>
 
 ## Desestructuración
 La desestructuración es una característica muy conveniente al desarrollar con javascript, es una expresión que nos permite desempaquetar valores de arrays u objetos en grupos de variables, permitiéndonos simplificar y crear código más legible.
+<img
+src="./codeExamples/DESESTRUCTURACIÓN DE ARRAY.png"/>
+
 
 <img
 src="./codeExamples/Desestructuración.png"/>
 
-# Métodos de Array 
 
+# Métodos de Array 
 ## ForEach
+El forEach es un metodo para iterar cada elemento de un array y ejecutar una funcion.
+
+```js 
+
+const data = ["React", "Angular", "Vue"]
+
+data.forEach(()=> {
+    
+})
+
+```
+
+
+
 ## Reduce
