@@ -10,6 +10,6 @@
 - [x] [ES7](codeExample/../2-%20ES7.md)
   - [x] Includes (Array) 
   - [x] Operador de exponenciación (**)
-- [ ] ES8
+- [x] [ES8](codeExample/../2-%20ES8.md)
 - [ ] ES9
 - [ ] ES10
