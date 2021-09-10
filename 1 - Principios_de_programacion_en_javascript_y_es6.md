@@ -103,15 +103,48 @@ const consultarApiLogin = async (id) => {
 
 # Métodos de Array 
 ## ForEach
-El forEach es un metodo para iterar cada elemento de un array y ejecutar una funcion.
+El forEach es un metodo para iterar cada elemento de un array y ejecutar una función. este recibe como parametro un **callback**, y opcionalmente la referencia al array **thisArg** , el callback lleva como parametro el **CurrentValue** que es el elemento actual siendo procesado en el array, como parametro opcional el **Index** es el indice del elemento actual siendo procesado en el array,  y el **Array** El vector que el foreach esta utilizando para iterar.  
 
 ```js 
 
 const data = ["React", "Angular", "Vue"]
 
 data.forEach(()=> {
-
+//iteración
 })
+
+data.forEach((currentValue)=> {
+console.log(currentValue)
+})
+//'React'
+//'Angular'
+//'Vue'
+data.forEach((currentValue, index)=> {
+console.log( index, currentValue)
+})
+//0 'React'
+//1 'Angular'
+//2 'Vue'
+
+data.forEach((currentValue, index ,array)=> {
+console.log( index," ", currentValue," ",array)
+})
+// 0 'React' [ 'React', 'Angular', 'Vue' ]
+// 1 'Angular' [ 'React', 'Angular', 'Vue' ]
+// 2 'Vue' [ 'React', 'Angular', 'Vue' ]
+```
+
+El thisArg mencionado anteriormente, solo es valido con funciones normales, ya que este argumento en las funciones de flecha apuntan al windows
+
+
+```js 
+
+data.forEach(function(e){
+    console.log(e, this)
+}, data)
+// 'React' [ 'React', 'Angular', 'Vue' ]
+// 'Angular' [ 'React', 'Angular', 'Vue' ]
+// 'Vue' [ 'React', 'Angular', 'Vue' ]
 
 ```
 
