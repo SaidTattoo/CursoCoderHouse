@@ -16,7 +16,15 @@ src="./codeExamples/Ejemplo 2 spread operator.png"/>
 
 La sintaxis de los parámetros rest nos permiten representar un número indefinido de argumentos como un array.
 
+<img
+src="./codeExamples/Parametros rest.png"/>
+
+
 ## Desestructuración
+La desestructuración es una característica muy conveniente al desarrollar con javascript, es una expresión que nos permite desempaquetar valores de arrays u objetos en grupos de variables, permitiéndonos simplificar y crear código más legible.
+
+<img
+src="./codeExamples/Desestructuración.png"/>
 
 # Métodos de Array 
 
